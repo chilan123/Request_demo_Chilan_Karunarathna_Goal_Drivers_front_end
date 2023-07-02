@@ -1,0 +1,94 @@
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  
+}
+
+.container {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #d9d9d9;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  background-color: #12c2fc;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 10cm;
+  height: 1cm;
+}
+
+button[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+
+.heading {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.paragraph {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
